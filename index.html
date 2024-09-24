@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ STRUKTUR ATOM SMA 2 BALIKPAPAN BY RIDHO X-10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>QUIZ STRUKTUR ATOM SMA 2 BALIKPAPAN<br>BY RIDHO X-10</h1>
+        <p class="description">Web ini bertujuan untuk edukasi dan memahami tentang struktur atom layaknya ujian, untuk pelajaran kimia di SMA 2 Balikpapan oleh Ridho Achmad Al Azizi X-10.</p>
+        <div class="theme-toggle">
+            <button id="toggleTheme">Mode Gelap</button>
+        </div>
+        <div id="nameInputContainer">
+            <input type="text" id="playerName" placeholder="Masukkan nama Anda" />
+            <button id="startQuiz">Mulai Kuis</button>
+        </div>
+        
+        <div id="quizContainer" class="hidden">
+            <h2 id="questionTitle"></h2>
+            <div id="questionContainer"></div>
+            <button id="nextButton" class="hidden">Berikutnya</button>
+        </div>
+
+        <div id="scoreContainer" class="hidden"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
